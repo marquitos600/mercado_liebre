@@ -1,0 +1,79 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    /*background: none;*/
+    color: inherit;
+    text-decoration: inherit;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+.formulario{
+    text-align: center;
+    margin: 50px;
+}
+
+p label{
+    font-weight:bold;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendedor{
+    margin-left: 10px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+#cbox2{
+margin: 10px;
+}
+p{
+    font-weight: bold;
+}
+
+
+
+/*login*/
+
+.nombre, .contraseña{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+}
+
+.enviar{
+    background-color: #2790c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+    width: -webkit-fill-available;
+}
+
+.enviar p{
+    color: white;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.enviar:hover{
+background-color: #0022AA;
+}
