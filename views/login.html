@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">  <!--clase para responsive-->
 
     <link rel="stylesheet" href="/css/styles.css">    
-    <link rel="stylesheet" href="/css/form.css">  <!--clase de estilos-->
+    <link rel="stylesheet" href="/css/login.css">  <!--clase de estilos-->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">     <!--Fuente-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!--Fuente-->
@@ -77,27 +77,24 @@
 
 
     <main>
+        <div class="main">
+            <form action="/login" method="POST" class="formulario-login">
+                <div class="campo">
+                    <input type="text" placeholder="Nombre de usuario" required="">
+                </div>
+                
+                <div class="campo">
+                    <input type="password" placeholder="Contraseña" required="">
+                </div>
 
-        <form action="/login" method="POST">
-           
+                <div class="campo, boton-entrar">
+                    <button type="submit">Entrar</button>
+                </div>
 
-            <div  class="nombre">
-                <!--<label>Nombre de usuario</label>-->
-                <input type="text" name="nombre" required  placeholder="Nombre de usuario">
-            </div >
-
-            <div class="contraseña">
-               <!-- <label>Confirmar Contraseña:</label>-->
-                 <input type="password" name="password" required placeholder="Confirmar contraseña">
-            </div>
-
-            <div >
-                <button type="submit" class="enviar" >Enviar</button>
-            </div>
-          </form>
-
-
+            </form>
+        </div>
     </main>
+
 
     <footer>
         <div class="footer-textos">
